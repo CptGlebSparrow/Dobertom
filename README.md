@@ -13,9 +13,3 @@ const createLoop = (onStep, timeout) => {
     iteration()
   }
 
-  const stop = () => {
-    running = false
-  }
-
-  return { start, stop }
-}
