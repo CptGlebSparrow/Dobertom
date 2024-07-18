@@ -12,4 +12,15 @@ const createLoop = (onStep, timeout) => {
     running = true
     iteration()
   }
+Array.prototype.likeFilter = function (f) {
+  let re = []
+  this.forEach((e) => {
+    if (f(e)) {
+      re.push(e)
+    }
+  })
+  return re
+}
+
+const arr = [1, 2, 3, 4, 5, 6]
 
