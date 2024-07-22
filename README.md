@@ -24,3 +24,16 @@ Array.prototype.likeFilter = function (f) {
 
 const arr = [1, 2, 3, 4, 5, 6]
 
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title></Title>
+        </Header>
+        <Snippet>
+            <Code Language="">
+                <![CDATA[]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
