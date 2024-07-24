@@ -37,3 +37,14 @@ const arr = [1, 2, 3, 4, 5, 6]
         </Snippet>
     </CodeSnippet>
 </CodeSnippets>
+
+def closure(n):
+
+    def sleep_several_seconds():
+        nonlocal n
+        time.sleep(1)
+        n = n - 1
+        print(f"{n} seconds left")
+        return n
+
+    return sleep_several_seconds
